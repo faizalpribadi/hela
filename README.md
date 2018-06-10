@@ -5,5 +5,5 @@
 
 ## Description
 
-Hela is tools for automating healt checking of service with different protocols :
+Hela is tools for automating health checking of service with different protocols :
 - Use a [gRPC] for intern service communication 
