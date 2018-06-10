@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package connectors;
+
+service ConnectorHandler {
+    rpc Check(Protocol) returns (Service);
+}
+
+message Protocol {
+    string type = 1;
+}
+
+message Service {
+    string name = 1;
+}
