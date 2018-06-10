@@ -1,1 +1,3 @@
-![hela logo](https://raw.githubusercontent.com/faizalpribadi/hela/master/images/hela.png)
+# Hela
+
+<p align="center"><img src="images/hela.png" width="360"></p>
