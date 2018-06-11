@@ -8,8 +8,10 @@ service ConnectorHandler {
 
 message Protocol {
     string type = 1;
+    string service_name = 2;
 }
 
 message Service {
-    string name = 1;
+    bool ready = 1;
+    int64 statusCode = 2;
 }
